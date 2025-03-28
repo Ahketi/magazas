@@ -1,0 +1,21 @@
+{
+  "name": "xypp/store",
+  "description": "Yerel Pazar Eklentisi",
+  "type": "flarum-extension",
+  "keywords": ["flarum", "extension", "store", "pazar"],
+  "authors": [
+    {
+      "name": "xypp",
+      "email": "email@xypp.com"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Xypp\\Store\\": "src/"
+    }
+  }
+}
